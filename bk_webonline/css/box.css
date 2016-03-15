@@ -1,0 +1,17 @@
+/* CSS Document */
+div.box{
+	display:block;
+	width:260px;
+	padding:10px;
+	color:#eaeaea;
+	box-shadow:3px 0px 3px -3px #FFF;
+}
+
+div.box h2{
+	margin:5px -10px 10px;
+	padding:5px 10px;
+	font-size:18px;
+	color:#FFF;
+	background: no-repeat scroll center bottom rgba(245, 245, 245, 0.2);
+	clear:both;
+}
