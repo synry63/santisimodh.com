@@ -1,0 +1,10 @@
+/* CSS Document */
+form.contact{
+	display:block;
+	widows:100%;
+}
+
+form.contact textarea{
+	width:100%;
+	height:200px;
+}

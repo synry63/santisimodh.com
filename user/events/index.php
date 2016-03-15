@@ -1,0 +1,5 @@
+<?
+
+include 'list.php';
+
+?>
