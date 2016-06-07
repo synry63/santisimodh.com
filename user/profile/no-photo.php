@@ -1,1 +1,0 @@
-<h3><?=lang('No estás registrado como fotografo todavía')?></h3>
