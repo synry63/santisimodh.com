@@ -1,0 +1,269 @@
+html { font-size: 62.5%; }
+body{
+  margin: 0 0 55px 0;
+  color: white;
+  font-size: 13px;
+  font-family: Verdana, Arial;
+  min-height: 100%;
+  height: 100%;  
+}
+aside{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 330px;
+	background: url(../skin/int/px.png);
+	z-index: 99;
+	color: white;
+}
+aside figure{
+	margin:20px auto 10px;
+	display: block;
+	text-align: center;
+}
+aside h2,aside h3{
+	font-family: impact, arial;
+	font-weight: normal;
+}
+aside h2{
+	font-size: 32px;
+	margin: 4px 0 15px 50px;
+	line-height: 32px;
+}
+aside h3{
+	font-size: 18px;
+	margin-left:50px;
+}
+.btn{
+	display: block;
+	padding: 10px 0 10px 50px;
+	color: white;
+	background: url(../skin/int/punta.png) left no-repeat;
+	width: 130px;
+	text-align: left;
+	font-size: 11px;
+}
+aside ul{
+	margin:15px 0 20px 50px;
+	overflow: hidden;
+}
+aside ul li{
+	margin-right: 16px;
+	float: left;
+}
+.sociales p{
+	margin:10px 0 -10px 50px;
+}
+.sociales li{
+	margin-right: 6px;
+}
+#top{
+	position: fixed;
+	background: url(../skin/int/top.png);
+	left: 330px;
+	top: 0;
+	height: 112px;
+	width: 100%;
+	z-index: 99
+}
+section{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 720px;
+	margin-left: 385px;
+	z-index: 99;
+	height: 100%;
+}
+
+section header{
+	height: 130px;
+	position: relative;
+}
+section header > nav{
+	top: 30px;
+	position: fixed;
+
+}
+section header nav > a{
+	position: absolute;
+	right: 0;
+	top: -20px;
+	font-size: 10px;
+}
+section header nav > ul > li{
+	margin-left: 30px;
+	float: left;
+	position: relative;
+}
+section header nav > ul > li > a{
+	
+	color: white;
+	padding-bottom: 3px;
+}
+section header nav > ul > li ul{
+	position: absolute;
+	top: 22px;
+	left: 0;
+	width: 190px;
+	display: none;
+	z-index: 9;
+	background: #f28e23;
+	color: white;
+	text-transform: none;
+	padding: 5px 10px
+}
+section header nav > ul > li  ul li{
+	float: none;
+	display: block;
+	margin: 5px 0;
+}
+section header nav > ul > li  ul li a{
+	color: black !important;
+}
+section header nav > ul > li  ul li a:hover{
+	color: #666;
+}
+
+section .content {
+	margin-top: 0px;
+	color: white;
+	width: 650px;
+	font-size: 15px;
+	font-weight: bold;
+	background: url(../skin/int/px.png);
+	padding: 30px;
+	border-radius: 5px;
+
+}
+section header nav ul > li a:hover,section header nav ul > li a.active{
+	color: #f28e23;
+	border-bottom: 5px solid #f28e23;
+	text-decoration: none;
+}
+
+section h1{
+	margin-bottom: 15px;
+}
+section h1 span, section h2 span, section .titular span{
+	/*background: black;*/
+	padding: 3px 10px;
+	font-family: arial;
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold
+}
+section h2 span{
+	background: #f28e23;
+}
+.separador{
+	height: 25px;
+	display: block;
+	overflow: hidden;
+}
+
+.info{
+	margin: 25px 0 35px 0;
+	display: block;	
+}
+
+#home{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+	width: 850px;
+}
+#home h2{
+	margin: 0 0 8px 0;
+}
+#home blockquote{
+	width: 440px;
+	padding: 10px;
+	background: black;
+	color: white;
+	float: left;
+	font-size: 11px;
+	margin-top: 20px;
+}
+.video{
+	float: left;
+	padding-bottom: 30px;
+	width: 380px
+}
+.lista{
+	margin: 20px 0 0 0;
+}
+h4, .tabla th{
+	background: #f28e23;
+	color: white;
+	padding: 5px 0;
+	margin: 0 0 5px;
+}
+
+
+.listado li{
+	padding-left: 15px;
+	margin: 0 0 10px 0;
+	position: relative;
+}
+.listado li::before{
+	content: "> ";
+	color: #f28e23;
+	width: 20px;
+	position: absolute;
+	left: 0
+}
+.lista p{
+	text-align: center;
+}
+.lista li{
+	padding-left: 10px;
+	margin: 0 0 5px 0;
+}
+.lista li h4{
+	margin-left: -10px;
+	padding-left: 10px;
+}
+.lista li ul{
+	overflow: hidden;
+}
+.lista li ul li{
+	padding: 0 0 0 0px;
+	position: relative;
+}
+.lista li ul li sup{
+	float: left;
+	font-size: 11px;
+	width: 120px;
+}
+.lista li ul li p{
+	text-align: left;
+	padding: 0 10px 0;
+	margin-left: 130px;
+	margin-bottom:3px
+}
+.tabla th{
+	text-align: left;
+}
+.tabla td, .tabla th{
+	padding: 10px;
+}
+.tabla td{
+	border-bottom: 1px solid #ccc;
+}
+#galeria {
+	padding-right: 50px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+#galeria img{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.auspiciador{
+
+}
