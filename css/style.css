@@ -118,7 +118,7 @@ body{
     right: 0;
     bottom: 0;
     z-index: 999999;
-    background-color: #fff;
+    background-color: #000;
 }
 .loader {
     position: absolute;
@@ -1069,6 +1069,7 @@ td.tw10{
 }
 .player-item-results p{
     padding: 10px 0;
+	font-size: 13px;
 }
 .player-item-results a{
     padding: 10px;
@@ -1087,6 +1088,9 @@ td.tw10{
 	z-index: 1;
 	background-color: #000;
 	overflow: hidden;
+}
+. bg-section{
+	background: #fff;
 }
 .player-item .gambar img{
 	-webkit-transform: scale(1,1);
@@ -2452,6 +2456,9 @@ hr{
 	}
 }
 @media (max-width: 768px) {
+	.navbar-main{
+		background-color: rgb(0,0,0);
+	}
 	.navbar-main.stiky .navbar-nav > li > a {
 		padding-top: 15px;
 		min-height: 40px;
