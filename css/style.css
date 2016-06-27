@@ -1,30 +1,3 @@
-/*
-Template Name: Prosoccer - Laundry Business Html Template
-Template URI: rudhisasmito.com/demo/prosoccer
-Author: Rudhi Sasmito
-Author URI: https://www.behance.net/rudhisasmito
-Version: 1.0
------------------------------------------------------------------
-
-CSS Style Structure
-1. General
-2. Navbar
-3. Banner
-4. Match Facts
-5. About
-6. Our Player / Team
-7. Gallery
-8. Blog / News
-9. Client
-10. FAQ
-11. Shop
-12. Contact
-13. Footer
-
-
-*/
-
-
 @font-face {
     font-family: 'bebas_neue';
     src: url('../fonts/bebasneue_regular-webfont.eot');
@@ -1067,15 +1040,21 @@ td.tw10{
 #player-caro .item{
 	margin: 15px;
 }
-.player-item-results p{
-    padding: 10px 0;
-	font-size: 13px;
+.lista ul{
+	margin: 20px 0;
+    padding: 0 100px;
+}
+.primary-results{
+    margin-top: 20px;
 }
 .player-item-results a{
-    padding: 10px;
-    background: #000;
-    color: #fff;
-    transition: all .5s;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	transition: all .5s;
 }
 .player-item-results a:hover{
     background: #be1622;
@@ -1089,7 +1068,7 @@ td.tw10{
 	background-color: #000;
 	overflow: hidden;
 }
-. bg-section{
+.bg-section{
 	background: #fff;
 }
 .player-item .gambar img{
